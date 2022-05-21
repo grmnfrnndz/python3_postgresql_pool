@@ -32,7 +32,6 @@ MAX_CON = 5
 ```
 
 from conexion import Conexion
-from logger_base import log
 
 with CursorDelPool() as cursor:
     cursor.execute('SELECT * FROM persona;')
